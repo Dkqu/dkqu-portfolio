@@ -2,6 +2,8 @@
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 /*reset the page so no additional presets*/ 
 * { 
@@ -10,7 +12,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
 }
 
 /*Not instant transition, smooth transition instead when scrolling*/
@@ -19,7 +21,7 @@ html {
 }
 
 p {
-    color: rgb(85,85,85);
+    color: rgb(80, 80, 80);
 
 }
 /*Transition*/
@@ -92,7 +94,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(96, 112, 114);
     transition: all 0.3 ease-in-out;
 }
 
@@ -196,6 +198,8 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    color: #10ac84;
+    
 }
 
 #socials-container {
@@ -260,6 +264,9 @@ section {
 #about {
     position: relative;
 }
+.about-sub-title {
+    color: #10ac84;
+}
 
 .about-containers{
     gap: 2rem;
@@ -277,7 +284,9 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem
+    border-radius: 2rem;
+    padding: 1rem; 
+    
 }
 .arrow {
     position: absolute;
@@ -312,7 +321,7 @@ section {
 }
 
 .experience-sub-title {
-    color:rgb(85,85,85);
+    color: #2e86de;
     font-weight: 600;
     font-size:1.75rem;
     margin-bottom: 2rem
@@ -349,7 +358,7 @@ article {
 }
 
 .color-container {
-    border-color: rgb(163,163,163);
+    border-color: rgb(62, 55, 55);
     background: rgb(250,250,250)
 }
 .project-img {
