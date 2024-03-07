@@ -65,7 +65,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    height: 2rem;
 }
 .logo:hover{
     cursor:default;
@@ -160,7 +160,9 @@ section {
     min-height: fit-content;
 }
 
-.section-container { display: flex }
+.section-container { 
+    display: flex;
+}
 
 /*Profile Section*/
 #profile {
@@ -270,7 +272,8 @@ section {
 
 .about-containers{
     gap: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -305,7 +308,7 @@ section {
 }
 .section-container {
     gap: 8rem;
-    height: 80%;
+    height:60%;
     
 }
 .section__pic-container {
@@ -321,8 +324,8 @@ section {
 }
 
 .experience-sub-title {
-    color: #2e86de;
-    font-weight: 600;
+    color: #3d3d3d;
+    font-weight: 800;
     font-size:1.75rem;
     margin-bottom: 2rem
 }
@@ -331,6 +334,7 @@ section {
     display:flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .article-container {
