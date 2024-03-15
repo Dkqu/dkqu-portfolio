@@ -10,6 +10,7 @@
     #projects {
       height: fit-content;
     }
+   
   }
   
   @media screen and (max-width: 1200px) {
@@ -70,6 +71,7 @@
     }
     .contact-info-container {
       margin: 1;
+    }
     .contact-info-container p,
     .nav-links li a {
       font-size: 1rem;
@@ -96,8 +98,15 @@
     .title {
       font-size: 2rem;
     }
+    .title-about {
+      margin-bottom: 2rem;
+    }
+   
     .text-container {
       text-align: justify;
     }
+    #about {
+      padding: 90px;
+    }
+    
   }
-}
