@@ -1,0 +1,63 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Cards</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    
+    .card-container {
+      display: flex;
+      gap: 20px; /* Space between cards */
+    }
+    
+    .card {
+      width: 300px;
+      height: 400px; /* Adjust the height as needed */
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    
+    .card-content {
+      padding: 20px;
+    }
+    @media (max-width: 1024px)  {
+    .card-container {
+        display: block;
+    }
+} 
+  </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+          <!-- Content for card 1 -->
+          <h2>Capitalise</h2>
+          <h4>University of Auckland</h4>
+          <p>Capitalise is project portfolio platform run by the University of Auckland's Computer Science Faculty. This was designed with the purpose of connecting Computer Science students to prospective employers through an interactive portfolio showcasing their capstone projects. </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <!-- Content for card 2 -->
+          <h2>Card 2</h2>
+          <p>This is the content of card 2.</p>
+        </div>
+      </div>
+      <!-- Add more cards here -->
+    </div>
+  </body>
+  </html>
